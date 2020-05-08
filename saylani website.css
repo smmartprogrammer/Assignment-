@@ -1,0 +1,1125 @@
+ @media only screen and (max-width:1200px)
+ {
+     body{
+        width: 100%;
+     }
+ }
+
+
+ @media only screen and (max-width:900px)
+
+{
+    body{
+        width:100%;
+    }
+
+}
+
+@media only screen and (max-width:600px)
+ {
+     body{
+        width: 100%;
+     }
+ }
+
+ @media only screen and (max-width:300px)
+ {
+     body{
+        width: 100%;
+     }
+ }
+
+ 
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-size:13px ;
+    font-family: arial;
+}
+div.main-container{
+    background-color:#3057ba;
+    height: 50px;
+    
+}
+div.facebook-logo{
+    position: relative;
+    top: 10px;
+    width: 23px;
+    height: 20px;
+    padding: 5px;
+    left: 100px;
+}
+
+div.facebook-logo:hover{
+    background-color:#2155DA;
+    cursor: pointer;
+
+
+}
+
+div.twitter-logo{
+    position: absolute;
+    top: 10px;
+    left: 135px;
+    width: 23px;
+    height: 20px;
+    padding: 5px;
+
+}
+div.twitter-logo:hover{
+    background-color:#2155DA;
+    cursor: pointer;
+
+}
+
+div.instagram-logo{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    width: 23px;
+    height: 20px;
+    padding: 5px;
+    
+}
+div.instagram-logo:hover{
+    background-color:#2155DA;
+    cursor: pointer;
+
+}
+
+div.youtube-logo{
+    position: absolute;
+    top: 10px;
+    left: 205px;
+    width: 23px;
+    height: 20px;
+    padding: 5px;
+    
+}
+div.youtube-logo:hover{
+    background-color:#2155DA;
+    cursor: pointer;
+
+}
+
+div.whatsapp-logo{
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    width: 23px;
+    height: 20px;
+    padding: 5px;
+    
+}
+
+div.whatsapp-logo:hover{
+    background-color:#2155DA;
+    cursor: pointer;
+}
+
+
+p.first-para{
+    display: inline;
+    color: #fff;
+    position: relative;
+    left: 400px;
+    bottom: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.first-button{
+    position: absolute;
+    right: 300px;
+    top: 11px;
+    height: 28px;
+    width: 85px;
+    cursor: pointer;
+}
+button.second-button{
+    position: absolute;
+    right: 200px;
+    top: 11px;
+    height: 28px;
+    width: 95px;
+    cursor: pointer;
+}
+button.third-button{
+    position: absolute;
+    right:98px;
+    top: 11px;
+    height: 28px;
+    width: 97px;
+    cursor: pointer;
+}
+
+div.Main-Navigrational-bar{
+    background-color:#f7f7f7;
+    height: 80px;
+    width: 100%;   
+    
+}
+
+
+span.main_menu{
+    float: right;
+    line-height: 80px;
+    margin-right: 150px;
+
+}
+
+
+img.saylani-logo{
+    position: relative;
+    top: 10px;
+    width: 205px;
+    height: 53px;
+    margin-left:120px ;
+    margin-top: 3px;
+}
+
+
+  .button {
+    background-color:#f7f7f7;
+    border: none;
+    color:#000000;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* margin: 8px 8px; */
+    margin-right: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 35px;
+    width: 75px;
+    
+  }
+button#home{
+    background-color: #3057ba;
+    color: #fff;
+}
+button#about{
+    width: 80px;
+    border: none;
+}
+button#saylani_services{
+    width: 150px;
+}
+button#future_project{
+    width: 130px;
+}
+button#donation{
+    width: 100px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color:#3057ba;
+}
+
+div.dropdown{
+    width: 155px;
+    height: 110px;
+    background-color:#f7f7f7;
+    position: relative;
+    top: 33px;
+    right: 10px;
+    display:none;
+}
+
+
+
+div.dropdown a{
+    font-size: 13px;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 0px;
+    color: #000000;
+}
+div.dropdown a:hover{
+    background-color: #3057ba;
+    margin-left: 0px;
+    color: #fff;
+}
+#about:hover>div.dropdown{
+    display: block;
+    
+}
+
+div.saylani_services{
+    width: 190px;
+    height: 445px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: 33px;
+    right: 12px;
+    display: none;
+}
+
+#saylani_services:hover>div.saylani_services{
+    display: block;
+}
+
+div.saylani_services a{
+    text-transform: capitalize;
+    border: 1px solid white;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+div.saylani_services a:hover{
+    background-color: #3057ba;
+    color: #fff;
+}
+
+span.educatin_arrow{
+    position: absolute;
+    right: 0px;
+    font-size: 13px;
+}
+
+div.education_items{
+    display: inline-block;
+    position: absolute;
+    top:130px ;
+    left: 922px;
+    background-color: #f7f7f7;
+    width: 150px;
+    height: 110px;
+}
+
+p.education a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px;
+    color: #000;
+
+
+}
+
+/* div.saylani_services a:hover> */
+
+/* div.education_items a:hover
+
+{
+    background-color: #2155DA;
+    color: #fff;
+}
+
+a.edu:hover>.education_items{
+    background-color: #1e63eb;
+    color: #fff;
+    display: block;
+}  */
+
+div.education_items{
+    width: 150px;
+    height:113px;
+    background-color: aqua;
+    display: none;
+
+}
+
+ul.education_unordered_list{
+    list-style: none;
+
+}
+
+
+li.education_list{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+li.education_list a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    text-transform: capitalizes;
+}
+
+
+/* .saylani_services */
+
+div.education_items
+{
+    display: block;
+}
+
+
+div.future_project{
+    width: 140px;
+    height: 74px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: 33px;
+    margin-right: 8px;
+    display: none;
+}
+#future_project:hover>.future_project{
+    display: block;
+} 
+
+
+div.future_project a{
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    color: #000;
+    text-align: left;
+}
+div.future_project a:hover{
+    color: #fff;
+    background-color:#3057ba;
+}
+div.donation{
+    width: 140px;
+    height: 260px;
+    background-color: #f7f7f7;
+    position: relative;
+    top: 33px;
+    right: 75px;
+    display: none;
+}
+#donation:hover>.donation{
+    display: block;
+}
+
+div.donation a{
+
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    color: #000;
+    text-align: left;    
+
+}
+
+div.donation a:hover{
+    background-color: #3057ba;
+    color: #fff;
+}
+
+/* saylani submenu
+saylani services education items */
+
+div.education_dropdown{
+    width: 150px;
+    height: 111px;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 130px;
+    left: 930px;
+    display: none;
+
+}
+
+ul.education_items{
+    list-style: none;
+}
+
+ul.education_items li{
+    
+    border: 1px solid white;
+}
+
+ul.education_items li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+ul.education_items li a:hover{
+    background-color: #3057ba;
+    color: #fff;
+}
+
+div.saylani_mass_traning_categeries{
+    width: 150px;
+    height: 148px;
+    background-color: aqua;
+    position: relative;
+    left: 150px;
+    bottom:37px ;
+    display: inline-block;
+    
+}
+
+ul.saylani-mass-traning-items{
+    list-style: none;
+    
+}
+ul.saylani-mass-traning-items li{
+    padding: 10px;
+    
+}
+
+ul.saylani-mass-traning-items li a
+{
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+
+div.short_description{
+    margin: auto;
+    position: relative;
+    top: 10px;
+    
+}
+p.para2{
+    background-color: #3057ba;
+    font-size: 15px;
+    height: 25px;
+    padding: 8px;
+    color:#fff;
+    line-height: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    
+}
+
+span.green_line{
+    color: #1efa01f8;
+}
+p.para2 a{
+    color: #2c71fa;
+    text-decoration: none;
+}
+
+
+
+
+div#Main_bg_container{
+    background-color: #f7f7f7;
+}
+
+
+h1.intro{
+    font-size: 65px;
+    font-family: EucrosiaUPC;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    color: #1e63eb;
+}
+
+div.saylani_simple_logo img{
+    width: 35px;
+    height: 20s;
+    position: relative;
+    left: 650px;
+}
+
+
+div.saylani_introduction{
+    
+    background-color:#f7f7f7;
+    width: 1100px;
+    height: 550px;
+    margin: auto ;
+}
+
+
+p.intro_para{
+    padding: 20px;
+    font-size: 16px;
+    margin: 15px;
+    line-height: 1.5em;   
+    color: #81848a;
+    text-align: justify;
+}
+
+span.color_setting{
+    color: #024f0c;
+    font-size: 65px;
+    font-family: EucrosiaUPC;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+}
+
+div#detail-in-number{
+    width: 100%;
+    height: 300px;
+    background-color: #1e63eb;
+    
+}
+
+div.daily_dastrakhwan_monthly{
+    width: 375px;
+    height: 200px;
+    background-color:#1e63eb;
+    display: inline-block;
+    margin-top: 52px;
+    margin-left: 3px;
+    position: relative;
+    left: 40px;
+}
+
+ img.icon_food_image{
+    width: 50px;
+    height: 45px;
+    padding:15px 0px 0px 165px;
+
+}
+
+.dastrakhwan_para1{
+    display: inline-block;
+    font-size: 80px;
+    font-family: Arabic Typesetting;
+    text-align: center;
+    color: #fff;
+    padding:0px 0px 0px 100px ;
+}
+
+p.daily_dastrakhwan_class{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arabic Typesetting;
+    text-transform: uppercase;
+    padding:0px 0px 0px 0px ;
+    color: #fff;
+}
+
+span.monthly_edditing{
+    color: #1efa01f8;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* new div */
+/* family adoption monthly  */
+
+
+div.family_adoption_monthly{
+    width: 340px;
+    height: 200px;
+    background-color: #1e63eb;
+    display: inline-block;
+    margin-top: 52px;
+    margin-left: 3px;
+    position: relative;
+    left: 60px;
+    
+}
+
+img.icon_family_adoption_image{
+    width: 50px;
+    height: 45px;
+    padding:15px 0px 0px 130px ;
+
+}
+
+.adoption_para1{
+    display: inline-block;
+    font-size: 80px;
+    font-family: Arabic Typesetting;
+    text-align: center;
+    color: #fff;
+    padding:0px 0px 0px 100px ;
+}
+
+p.family_adoption_para2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arabic Typesetting;
+    text-transform: uppercase;
+    padding:0px 0px 0px 0px ;
+    color: #fff;
+}
+
+span.adoption_eddting{
+    color:#1efa01f8;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* medical postion
+here is medical postion */
+
+
+
+div.medical_services_monthly{
+    width: 340px;
+    height: 200px;
+    background-color:#1e63eb;
+    display: inline-block;
+    margin-top: 52px;
+    margin-left: 3px;
+    position: relative;
+    left: 80px;
+    
+}
+
+img.icon_medical_image{
+    width: 50px;
+    height: 45px;
+    padding:15px 0px 0px 90px ;
+
+}
+
+.medical_counter{
+    display: inline-block;
+    font-size: 80px;
+    font-family: Arabic Typesetting;
+    text-align: center;
+    color: #fff;
+    padding:0px 0px 0px 48px ;
+}
+
+p.medical_class{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arabic Typesetting;
+    text-transform: uppercase;
+    padding:0px 0px 0px 0px ;
+    color: #fff;
+}
+
+span.monthly_eddting{
+    color:#1efa01f8;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* education potion */
+/* education potion */
+
+div.education_monthly{
+    width: 340px;
+    height: 200px;
+    background-color:#1e63eb;
+    display: inline-block;
+    margin-top: 52px;
+    margin-left: 3px;
+    position: relative;
+    left: 10px;
+    
+}
+
+img.icon_education_image{
+    width: 50px;
+    height: 45px;
+    padding:15px 0px 0px 110px ;
+
+}
+
+.education_para1{
+    display: inline-block;
+    font-size: 80px;
+    font-family: Arabic Typesetting;
+    text-align: center;
+    color: #fff;
+    padding:0px 0px 0px 48px ;
+}
+
+p.education_para2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arabic Typesetting;
+    text-transform: uppercase;
+    padding:0px 0px 0px 0px ;
+    color: #fff;
+}
+
+span.education_eddting{
+    color:#1efa01f8;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+div#particular_purpose{
+    background-color: #f7f7f7;
+}
+
+h1.main_purpose{
+    font-size:50px;
+    font-family:EucrosiaUPC;
+    text-transform: uppercase;
+    color: #1e63eb;
+    margin-top: 55px;
+    text-align: center;
+}
+
+span.doing{
+    color: #024f0c;
+    font-size:50px;
+    font-family:EucrosiaUPC;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+
+
+/* specific purpose setup */
+
+div#individual_purpose{
+    background-color: #f7f7f7;
+}
+
+
+div.different_categories{
+    width: 350px;
+    height: 180px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0 0 15px -5px;
+}
+
+
+
+img.color_icon_images{
+    margin-top:25px;
+    margin-left:130px;
+    cursor: pointer;
+}
+
+p.purpose{
+    font-size: 35px;
+    font-family:EucrosiaUPC;
+    text-transform: uppercase;
+    color: #1e63eb;
+    margin-top:15px;
+    text-align: center;
+}
+
+
+
+
+div.projects{
+    background-color: #fff;
+        
+}
+
+h1.upcoming_projects
+
+{
+    display: inline-block;
+    font-size: 45px;
+    font-family:EucrosiaUPC;
+    margin-top: 200px;
+    text-transform: uppercase;
+    color: #1e63eb;
+    position: relative;
+    left: 172px;
+}
+
+
+div.missions{
+    position: relative;
+    top: 40px;
+    left: 150px;
+    
+}
+
+div.mission_items{
+    display: inline-block;
+    background-color:#f7f7f7;
+    width: 380px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border:1px solid #e7e5e5;
+}
+
+img.Missons-projects{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 25px;
+    top: 27px;
+    
+}
+span.mission_name{
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family:eucrosiaupc;
+    color: #1e63eb;
+    position: relative;
+    font-weight: bold;
+    top: 18px;
+    left: 39px;
+}
+
+img.housing{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    right:120px;
+    bottom: 15px;
+    
+}
+
+
+span.housing_society{
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family:eucrosiaupc;
+    color: #1e63eb;
+    position: relative;
+    font-weight: bold;
+    bottom: 25px;
+    right: 100px;
+}
+
+
+img.It_managment{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 17px;
+    right:125px;
+    
+}
+
+span.IT_leracy{
+
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family:eucrosiaupc;
+    color: #1e63eb;
+    position: relative;
+    font-weight: bold;
+    bottom: 28px;
+    right: 110px;
+
+}
+
+img.tharparkar{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    right:120px;
+    bottom: 20px;
+    
+}
+
+
+span.tharparkar_feature{
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family:eucrosiaupc;
+    color: #1e63eb;
+    position: relative;
+    font-weight: bold;
+    bottom: 25px;
+    right: 100px;
+}
+
+
+div.upcoming_events{
+    position: relative;
+    left: 1000px;
+    bottom: 250px;
+    height:80px;
+    width:350px;
+    background-color:#fff;
+    
+}
+
+h1.events
+{
+    display: inline-block;
+    font-size: 45px;
+    font-family:EucrosiaUPC;
+    text-transform: uppercase;
+    color: #1e63eb;
+    
+}
+
+
+div.short-detail{
+    position: relative;
+    top: 53px;
+    width: 300px;
+    height: 210px;
+    background-color:#fff;
+    overflow:hidden;
+
+}
+
+a.detail{
+    text-decoration: none;
+    color: #1e63eb;
+    text-transform: capitalize;
+}
+
+p.short_detail_para{
+    font-size: 15px;
+    color:#555555;
+    line-height: 18px;
+}
+
+marquee.marquee1:hover{
+    scroll-behavior: auto;
+}
+
+div.images{
+    width: 1120px;
+    height: 150px;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+
+span.font_line{
+    color: #024f0c;
+    
+}
+
+
+img.small_images
+{
+    width:220px ;
+    height: 150px;
+}
+
+
+
+div.footer{
+    margin-top: 220px;
+    width: 100%;
+    height: 400px;
+    background-color:#24262b;
+}
+img.contact_detail{
+    width: 15px;
+    height: 12px;
+
+}
+           
+p.full_detail{
+    padding-top: 100px;
+    margin-left:150px;
+    color: #fff;
+    line-height:25px;
+}
+
+div.usefull
+{
+    width: 500px;
+    height: 70px;
+    position: relative;
+    left: 460px;
+    bottom: 220px;
+}
+
+p.useful_links{
+    color: #fff;
+    font-size: 22px;
+    font-family:eucrosiaupc;
+    text-transform: uppercase;
+    position: absolute;
+
+
+}
+
+div.images_connection_main_container
+
+{
+    position: relative;
+    top: 20px;
+    right: 7px;
+    display: inline-block;
+    width:200px ;
+    height:50px;
+    
+}
+
+div.connections{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left:965px;
+    bottom: 290px;
+}
+
+
+
+
+p.connections_categaris
+
+
+{
+    color: #fff;
+    font-size: 22px;
+    font-family:eucrosiaupc;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+
+}
+
+div.links_images
+{
+    position: relative;
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+
+img.images_for_link_the_connection
+
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 7px;
+    top: 6px;
+    display: inline-block;
+    
+}
+
+
+
+div.copyright{
+    color: #fff;
+    background-color:#1e63eb;
+    width: 1400;
+    height: 50px;
+    line-height: 55px;
+    padding-left: 150px;
+}
+
